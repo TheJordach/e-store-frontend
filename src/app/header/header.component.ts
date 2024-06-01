@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import {faSearch} from "@fortawesome/free-solid-svg-icons";
+import {faSearch, faUserCircle, faHeart,faShoppingCart} from "@fortawesome/free-solid-svg-icons";
+
+
 
 @Component({
   selector: 'app-header',
@@ -7,5 +9,8 @@ import {faSearch} from "@fortawesome/free-solid-svg-icons";
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  faSearch = faSearch
+  protected readonly faSearch = faSearch
+  protected readonly faUserCircle = faUserCircle;
+  protected readonly faHeart = faHeart;
+  protected readonly faShoppingCart = faShoppingCart;
 }

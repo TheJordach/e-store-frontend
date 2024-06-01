@@ -9,10 +9,30 @@
          <option >Women</option>
          <option >Kids</option>
        </select>
+
+       <!-- Search bar ------------------------------------------------------------>
        <input class="from-control search-box" placeholder="Search...">
-       <button class="search-button">
-         <fa-icon [icon]="faSearch"/>
-       </button>
+       <button class="search-button"> <fa-icon [icon]="faSearch"/> </button>
      </div>
+
+     <!-- Signing and logging ------------------------------------------------------------>
+     <div class="login-container p-0">
+       <fa-icon class="user-icon" [icon]="faUserCircle"></fa-icon>
+       <h5><a href="#">Sign in</a></h5> / <h5><a href="#">Register</a></h5>
+     </div>
+
+     <!-- Wish list ------------------------------------------------------------>
+     <div class="cart-wishlist">
+       <ul class="p-0">
+         <li class="list-item">
+           <fa-icon [icon]="faHeart"/>
+         </li>
+         <li class="list-item">
+           <fa-icon [icon]="faShoppingCart"/>
+         </li>
+       </ul>
+     </div>
+
+     <!--Category navigation bar ------------------------------------------------------------>
    </div>
 </div>
