@@ -13,6 +13,10 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
     HeaderComponent,
     CatnavigationComponent
   ],
+  exports: [
+    HeaderComponent,
+    CatnavigationComponent
+  ],
   imports: [
     CommonModule,
     FontAwesomeModule,
